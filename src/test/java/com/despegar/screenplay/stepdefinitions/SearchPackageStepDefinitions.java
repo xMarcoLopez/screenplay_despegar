@@ -1,7 +1,10 @@
 package com.despegar.screenplay.stepdefinitions;
 
 import com.despegar.screenplay.model.Package;
+import com.despegar.screenplay.tasks.ConfirmTrip;
+import com.despegar.screenplay.tasks.PackageResult;
 import com.despegar.screenplay.tasks.SearchPackage;
+import com.despegar.screenplay.userinterface.PackageResultPage;
 import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -30,6 +33,8 @@ public class SearchPackageStepDefinitions {
     @When("^Daniel enters departure (.*) and destination (.*)$")
     public void searchPackage(String departure, String destination) {
         theActorInTheSpotlight().attemptsTo(SearchPackage.with(new Package(departure, destination)));
+        theActorInTheSpotlight().attemptsTo(PackageResult.with());
+        theActorInTheSpotlight().attemptsTo(ConfirmTrip.with());
     }
 
     @Then("^Daniel should see the resume page$")

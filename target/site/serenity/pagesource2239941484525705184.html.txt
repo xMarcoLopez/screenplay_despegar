@@ -1,0 +1,38 @@
+<html><head>
+    <script async="" src="//www.tripadvisor.com/js3/taevents-c.js"></script><script src="https://connect.facebook.net/signals/config/1395550314030712?v=2.9.33&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-58KX3PQ"></script><script type="application/javascript">
+        var trackingData = {};
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-58KX3PQ');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58KX3PQ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script type="application/javascript">
+    function receiveMessage(event){
+        trackingData = event.data;
+        if (trackingData.trackeameCookie)
+            document.cookie = "trackeame_cookie="+trackingData.trackeameCookie+"; path=/";
+        if(typeof(dataLayer) === "object" && typeof(dataLayer.push) === "function" && trackingData.GTM_Event) {
+            dataLayer.push({"event": trackingData.GTM_Event});
+        }
+    }
+    window.addEventListener("message", receiveMessage, false);
+</script>
+
+
+
+<script type="text/javascript" id="">(function(){"undefined"===typeof fbq&&(!function(b,f,g,e,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=f.createElement(g),c.async=!0,c.src=e,d=f.getElementsByTagName(g)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js"),fbq("init","1395550314030712"));var e={user_bucket:7};fbq("trackCustom","de",e)})();</script>
+<noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1395550314030712&amp;ev=PageView&amp;noscript=1">
+</noscript>
+<script type="text/javascript" id="">(function(){(function(e,f,d,g,h,b,a,c){e.taq||(b=e.taq=function(){b.queue.push(arguments)},b.queue=[],/bot|googlebot|crawler|spider|robot|crawling/i.test(d.userAgent)||(a=f.createElement(g),a.async=!0,a.src=h,c=f.getElementsByTagName(g)[0],c.parentNode.insertBefore(a,c)))})(window,document,navigator,"script","//www.tripadvisor.com/js3/taevents-c.js");var d={p:google_tag_manager["GTM-58KX3PQ"].macro(154),f:google_tag_manager["GTM-58KX3PQ"].macro(156)};taq("init","953456331");taq("track","PAGEVIEW",d)})();</script><form method="post" action="https://www.tamgrt.com/RT" target="ta0036180795363854656" style="display: none;"><iframe name="ta0036180795363854656" id="ta0036180795363854656" src="javascript:false"></iframe><input name="p" type="hidden" value="ari"><input name="f" type="hidden" value="null"><input name="id" type="hidden" value="953456331"><input name="event" type="hidden" value="PAGEVIEW"><input name="pixel_version" type="hidden" value="2"></form></body></html>
