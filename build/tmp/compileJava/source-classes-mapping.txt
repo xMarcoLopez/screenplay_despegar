@@ -1,0 +1,10 @@
+com/despegar/screenplay/userinterface/ResumePage.java
+ com.despegar.screenplay.userinterface.ResumePage
+com/despegar/screenplay/model/Package.java
+ com.despegar.screenplay.model.Package
+com/despegar/screenplay/questions/TheResumePage.java
+ com.despegar.screenplay.questions.TheResumePage
+com/despegar/screenplay/tasks/SearchPackage.java
+ com.despegar.screenplay.tasks.SearchPackage
+com/despegar/screenplay/userinterface/SearchPackagePage.java
+ com.despegar.screenplay.userinterface.SearchPackagePage

@@ -1,5 +1,7 @@
 package com.despegar.screenplay.stepdefinitions;
 
+import com.despegar.screenplay.model.Package;
+import com.despegar.screenplay.tasks.SearchPackage;
 import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -10,6 +12,7 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class SearchPackageStepDefinitions {
 
@@ -26,8 +29,7 @@ public class SearchPackageStepDefinitions {
 
     @When("^Daniel enters departure (.*) and destination (.*)$")
     public void searchPackage(String departure, String destination) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        theActorInTheSpotlight().attemptsTo(SearchPackage.with(new Package(departure, destination)));
     }
 
     @Then("^Daniel should see the resume page$")
