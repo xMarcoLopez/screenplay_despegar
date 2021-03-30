@@ -2,8 +2,8 @@ com/despegar/screenplay/util/Util.java
  com.despegar.screenplay.util.Util
 com/despegar/screenplay/model/Package.java
  com.despegar.screenplay.model.Package
-com/despegar/screenplay/questions/TheCheckoutPage.java
- com.despegar.screenplay.questions.TheCheckoutPage
+com/despegar/screenplay/userinterface/CheckoutPage.java
+ com.despegar.screenplay.userinterface.CheckoutPage
 com/despegar/screenplay/tasks/SearchPackage.java
  com.despegar.screenplay.tasks.SearchPackage
 com/despegar/screenplay/userinterface/SearchPackagePage.java
@@ -12,9 +12,11 @@ com/despegar/screenplay/userinterface/PackageResultPage.java
  com.despegar.screenplay.userinterface.PackageResultPage
 com/despegar/screenplay/userinterface/TripPage.java
  com.despegar.screenplay.userinterface.TripPage
-com/despegar/screenplay/userinterface/CheckoutPage.java
- com.despegar.screenplay.userinterface.CheckoutPage
-com/despegar/screenplay/tasks/ConfirmTrip.java
- com.despegar.screenplay.tasks.ConfirmTrip
-com/despegar/screenplay/tasks/PackageResult.java
- com.despegar.screenplay.tasks.PackageResult
+com/despegar/screenplay/questions/TheCheckoutPage.java
+ com.despegar.screenplay.questions.TheCheckoutPage
+com/despegar/screenplay/interactions/SwitchToNewWindow.java
+ com.despegar.screenplay.interactions.SwitchToNewWindow
+com/despegar/screenplay/tasks/ConfirmTheTrip.java
+ com.despegar.screenplay.tasks.ConfirmTheTrip
+com/despegar/screenplay/tasks/SelectAPackage.java
+ com.despegar.screenplay.tasks.SelectAPackage
